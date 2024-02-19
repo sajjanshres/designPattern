@@ -1,2 +1,2 @@
-# designPattern
+# DesignPattern
 Design Pattern in Java
