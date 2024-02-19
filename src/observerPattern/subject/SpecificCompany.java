@@ -1,3 +1,8 @@
+package observerPattern.subject;
+
+import observerPattern.observer.Observer;
+import observerPattern.subject.Company;
+
 public class SpecificCompany extends Company {
 
     public SpecificCompany(String companyName) {

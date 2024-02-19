@@ -1,4 +1,8 @@
-public class Customer implements Observer{
+package observerPattern.observer;
+
+import observerPattern.subject.Company;
+
+public class Customer implements Observer {
     private final String customerName;
 
     public Customer(String customerName) {

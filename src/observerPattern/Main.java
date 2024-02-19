@@ -1,3 +1,9 @@
+package observerPattern;
+
+import observerPattern.observer.Customer;
+import observerPattern.observer.Employee;
+import observerPattern.subject.SpecificCompany;
+
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         SpecificCompany sp = new SpecificCompany("ABC Ltd.");
@@ -25,8 +31,10 @@ public class Main {
         sp1.registerMember(e4);
 
         sp1.setStockPrice(145);
+        System.out.println("----------------------------");
         Thread.sleep(5000);
         sp1.setStockPrice(156);
+        System.out.println("----------------------------");
 
     }
 }

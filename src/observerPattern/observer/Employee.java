@@ -1,3 +1,7 @@
+package observerPattern.observer;
+
+import observerPattern.subject.Company;
+
 public class Employee implements Observer {
     private final String employeeName;
 
