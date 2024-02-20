@@ -4,3 +4,4 @@ Design Pattern in Java
 - Builder Pattern
 - Decorator Pattern
 - Adapter Pattern
+- Factory Pattern
