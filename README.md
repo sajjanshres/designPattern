@@ -6,3 +6,4 @@ Design Pattern in Java
 - Adapter Pattern
 - Factory Pattern
 - Abstract Factory Pattern
+- Singleton Pattern
